@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             agent {
-                
+                d
             }
             steps {
                 sh '''
@@ -20,7 +20,7 @@ pipeline {
 
         stage('Test') {
             agent {
-               
+                
             }
 
             steps {
